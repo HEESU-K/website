@@ -15,9 +15,10 @@
 		}
 
 		body > #main_header{
-			width:1920px; height: 1100px;
+			width:100%; height: 1100px;
 			margin: 0 auto;
-			background-image:url('main_daily_image/daily_top.jpg')
+			background-image:url('main_daily_image/daily_top2.jpg')
+			
 		}
 
 		#main_header > #title{	
@@ -50,13 +51,44 @@
 /*---------------------------------------------------------------------------------------------*/
 
 		#what_this_page{
-			width: 1920px; height: 500px;
+			width: 1900px; height: 500px;
 			background: black;
+			margin: 0 auto;
 			overflow: hidden;
 		}
-		#what_this_page > #wtp_1{float: left;}
-		#what_this_page > #wtp_2{float: left;}
+		#what_this_page > h1{
+			width: 275px; margin: 80px auto; padding: 15px;
+			 border: 2px solid white; border-radius: 0 40px 0 40px;
+		}
+
+		#what_this_page > #wtp1_3{
+			width: 1400px; margin: 0 auto; overflow: hidden;
+		}
+
+		#wtp1_3 > #wtp_1{
+			width: 400px; float: left; padding: 0 20px;
+		}
+		#wtp_1 > .wtp_image{
+			float:left; display: block; line-height: 100px;
+			padding-right: 20px; padding-top: 25px;
+		}
 		
+
+		#wtp1_3 > #wtp_2{
+			width: 400px; float: left; padding: 0 20px;
+		}
+		#wtp_2 > .wtp_image{
+			float:left; display: block; line-height: 100px;
+			padding-right: 20px; padding-top: 25px;
+		}
+
+		#wtp1_3 > #wtp_3{
+			width: 400px; float: left; padding: 0 20px;
+		}
+		#wtp_3 > .wtp_image{
+			float:left; display: block; line-height: 100px;
+			padding-right: 20px; padding-top: 25px;
+		}
 
 		.wtp_image > img{
 			width: 50px; height: 50px;
@@ -78,18 +110,25 @@
 <!------------------------------------------------------------------------------------------------>
 		<div id="what_this_page">
 			<h1>WHAT THIS PAGE</h1>
-			<div id="wtp_1">
-				<div class="wtp_image"><img src="main_daily_image/my_icon.png"></div>
-				<h3>ROLE 1</h3>
-				<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum has been the industry's standard dummy text ever since the </p>
-			</div>
+			<div id="wtp1_3">
+				<div id="wtp_1">
+					<div class="wtp_image"><img src="main_daily_image/my_icon.png"></div>
+					<h3>ROLE 1</h3>
+					<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum has been the industry's standard dummy text ever since the </p>
+				</div>
 
-			<div id="wtp_2">
-				<div class="wtp_image"><img src="main_daily_image/my_icon.png"></div>
-				<h3>ROLE 2</h3>
-				<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum has been the industry's standard dummy text ever since the 1s</p>
-			</div>
+				<div id="wtp_2">
+					<div class="wtp_image"><img src="main_daily_image/my_icon.png"></div>
+					<h3>ROLE 2</h3>
+					<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum has been the industry's standard dummy text ever since the 1s</p>
+				</div>
 
+				<div id="wtp_3">
+					<div class="wtp_image"><img src="main_daily_image/my_icon.png"></div>
+					<h3>ROLE 3</h3>
+					<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum has been the industry's standard dummy text ever since the 1s</p>
+				</div>
+			</div>
 			
 		</div>
 	</header>
