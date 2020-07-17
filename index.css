@@ -1,0 +1,142 @@
+<style>
+		*{margin:0 auto; padding: 0}
+		body{font-family: sans-serif;}
+		a{text-decoration: none;}
+		li{list-style: none;}
+		body{
+			background: black;
+			color: white;
+		}
+		
+		#main_header{
+			width:960px;
+			margin: 0 auto;
+			position: relative;
+			height: 150px;
+		}
+		#title{
+			position: absolute;
+			top:50px;
+			padding-left: 350px;
+			border: 3px dash
+		}
+
+/*-----------------------------------------------------------------------------------*/		#front_face_center{
+			text-align: center;  margin-bottom: 5px; 
+			border: 2px solid white;  float:left; 
+			width: 250px;  margin: 0 auto;
+		}	
+
+		#front_face{
+			float:left;
+			width: 350px; height: 350px;
+			margin-right: 15px; margin-bottom: 15px;
+			border: 2px solid white;
+			border-radius: 20px 20px 20px 20px;
+		}
+/*-----------------------------------------------------------------------------------*/	
+		#content{
+			width: 960px; margin: 0 auto; overflow: hidden;
+		}
+		#content > #main_section{
+			width: 750px;
+			float: left;
+		}
+
+		#content > #main_aside{
+			width: 190px;
+			float: right;
+
+		}
+		
+		#front_face_center{text-align: center; display: block; margin-left: 55px;}
+
+		input:nth-of-type(1){display: none;}
+		input:nth-of-type(1) ~ div:nth-of-type(1){display: none;}
+		input:nth-of-type(1):checked ~ div:nth-of-type(1){display: block;}
+
+		input:nth-of-type(2){display: none;}
+		input:nth-of-type(2) ~ div:nth-of-type(2){display: none;}
+		input:nth-of-type(2):checked ~ div:nth-of-type(2){display: block;}
+
+		section.buttons{
+			overflow: hidden; background: #FCC755;
+			width: 250px; height: 100;
+		}
+
+		section.buttons > label{
+			display: block;
+			height: 30px;
+			width: 90px;
+			line-height: 30px;
+			float: left;
+			margin:2px;
+			text-align: center;
+			box-sizing: border-box;
+			border: 2px solid white; border-radius: 10px 10px 10px 10px;
+			background: #FCC755;
+			color:black;
+		}
+
+		section.buttons > label:hover{background: white;}
+
+		/*section.buttons > label[for="Second"]{float: right;}*/
+
+		input:nth-of-type(1): checked ~ section.buttons > label:nth-of-type(1){
+			background: yellow;
+			color: black;
+		}
+		input:nth-of-type(2): checked ~ section.buttons > label:nth-of-type(2){
+			background: yellow;
+			color: black;
+		}
+
+		.item{
+			overflow: hidden; padding: 10px; border: 3px solid green; 
+			border-radius: 20px 20px 20px 20px;
+			margin-bottom: 8px; margin-top: 5px;
+			height: 25px;
+		}
+		.item:hover{background: #9EF452;}
+
+		/*.item > div{color: white; text-align: center;}*/
+		
+		/*thumb{float:left; width:20%; height: 20%;}*/
+
+		.discription{
+			float:left; margin-left: 10px; margin-bottom: 10px;
+			color:white; padding-left: 50px; line-height: 25px;
+		}
+
+		/*--------------------------footer Style----------------------*/
+		#main_footer{
+			position: absolute;
+			width: 960px;
+			height: 100px;
+			margin: 0 auto;
+			margin-bottom: 10px;
+			box-sizing: border-box;
+			padding: 10px;
+			border: 2px solid white;
+			text-align: center;
+			right:500px; bottom:0;
+			overflow: hidden;
+			background: #353533;
+		}
+		
+		#main_footer{overflow: hidden; width: 960px;}
+		#main_footer > img{
+			width: 80px;
+			float:left; margin-left: 5px;
+
+			padding: 3px; 
+			border:5px solid white; border-radius: 100px;
+		}
+		#footer_info{padding-top: 4px;}
+
+		#easter_egg{
+			float: left;	
+		}
+		#easter_egg > a{color:white;}
+
+	</style>
