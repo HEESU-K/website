@@ -3,8 +3,104 @@
 <head>
 	<meta charset="UTF-8">
 	<title>daily</title>
+	<style>
+		/**{margin:0 auto; padding: 0}*/
+		*{margin:0 auto; padding: 0;}
+		body{font-family: sans-serif;}
+		a{text-decoration: none;}
+		li{list-style: none;}
+		body{
+			background: black;
+			color: white;
+		}
+
+		body > #main_header{
+			width:1920px; height: 1100px;
+			margin: 0 auto;
+			background-image: url('main_daily_image/daily_top.jpg')
+
+		}
+
+		#main_header > #title{
+			width: 960px; height: 600px;
+			margin: 0 auto;
+		}
+		#title > #title_h2_first{
+			width: 570px; margin: 0 auto;
+			padding: 80px; padding-left: 50px;
+			font-size: 60px ;
+			
+		}
+		#title > #title_h2_second{
+			width: 420px; margin: 0 auto;
+			padding: 60px;
+		}
+		#title > p{
+			padding: 20px;
+		}
+		#title > #mainscreen_button{
+			display: block;
+			width: 88px; margin: 0 auto;
+			padding: 15px;
+			border: 3px solid white; border-radius: 20px;
+			color: white;
+			margin-top: 20px;
+		}
+		#title > #mainscreen_button:hover{color:black;
+			background: white; border: 3px solid black; font-weight: bold;}
+/*---------------------------------------------------------------------------------------------*/
+
+		#what_this_page{
+			width: 1920px; height: 500px;
+			background: black;
+			overflow: hidden;
+		}
+		#what_this_page > #wtp_1{float: left;}
+		#what_this_page > #wtp_2{float: left;}
+		
+
+		.wtp_image > img{
+			width: 50px; height: 50px;
+		}
+		
+
+		#content{width: 960px; margin: 0 auto; overflow: hidden; border: 1px solid white;}
+	</style>
 </head>
 <body>
-	<h1>daily_page_test</h1>
+	<header id="main_header">
+		<div id="title">
+			<h2 id="title_h2_first">YANG's Daily Photo</h2>
+			<h2 id="title_h2_second">UI & INTERFACE MADE BY KIM</h2>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
+			<a href="#" id="mainscreen_button">Get Started</a>
+		</div>
+		
+<!------------------------------------------------------------------------------------------------>
+		<div id="what_this_page">
+			<h1>WHAT THIS PAGE</h1>
+			<div id="wtp_1">
+				<div class="wtp_image"><img src="main_daily_image/my_icon.png"></div>
+				<h3>ROLE 1</h3>
+				<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum has been the industry's standard dummy text ever since the </p>
+			</div>
+
+			<div id="wtp_2">
+				<div class="wtp_image"><img src="main_daily_image/my_icon.png"></div>
+				<h3>ROLE 2</h3>
+				<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum has been the industry's standard dummy text ever since the 1s</p>
+			</div>
+
+			
+		</div>
+	</header>
+
+	<div id="content">
+		<p>1500sLorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum has been the industry's standard dummy text ever since the 15001500sLorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum has been the industry's standard dummy text ever since the 15001500sLorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum has been the industry's standard dummy text ever since the 15001500sLorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum has been the industry's standard dummy text ever since the 15001500sLorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum has been the industry's standard dummy text ever since the 1500</p>
+	</div>
+
+	<footer id="main_footer">
+		
+	</footer>
 </body>
 </html>

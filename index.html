@@ -129,7 +129,8 @@
 			overflow: hidden;
 			background: #353533;
 		}
-		#footer_info{padding-top: 4px;}
+		
+		#main_footer{overflow: hidden; width: 960px;}
 		#main_footer > img{
 			width: 80px;
 			float:left; margin-left: 5px;
@@ -137,6 +138,12 @@
 			padding: 3px; 
 			border:5px solid white; border-radius: 100px;
 		}
+		#footer_info{padding-top: 4px;}
+
+		#easter_egg{
+			float: left;	
+		}
+		#easter_egg > a{color:white;}
 
 	</style>
 </head>
@@ -165,7 +172,7 @@
 
 	<div id="content">
 		<section id="main_section">
-			<img id=front_face src="front_face.png">
+			<img id=front_face src="main_image/front_face.png">
 			<h3 id="front_face_center">동문고등학교 출신 양재원</h3>
 			<br>
 			<br>
@@ -228,11 +235,14 @@
 	</div>
 
 	<footer id="main_footer">
-			<img src="my_icon2.png">
+		<img src="main_image/my_icon2.png">
 		<div id="footer_info">
 			<h2>Made by KimHeesu</h2>
 			<h2>Last updated 2020-07-12</h2>
 		</div>
 	</footer>
+	<div id="easter_egg">
+			<a href="easter_egg">:p</a>
+	</div>
 </body>
 </html>
