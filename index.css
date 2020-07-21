@@ -20,6 +20,7 @@ body{background:#FEBC23}
 	margin-top: 300px;
 	padding-left: 170px;
 	font-size: 60px;
+	text-shadow: 5px 5px 5px black;
 }
 #main > #main_left > #title > p{
 	width: 65%;
@@ -39,6 +40,11 @@ body{background:#FEBC23}
 	text-align: center;
 	border-radius: 40px;
 	border: 2px solid #FEBC23;
+	text-shadow: 5px 5px 5px black;
+}
+#learn_more:hover{
+	background: #E1A225;
+	color: white;
 }
 
 #main_right{

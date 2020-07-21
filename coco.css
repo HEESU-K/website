@@ -1,0 +1,9 @@
+.text_img{
+	width: 300px; height: 300px;
+}
+
+#wow{
+	width: 500px; height: 500px;
+	background: red;
+}
+img{display: none;}
