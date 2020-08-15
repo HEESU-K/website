@@ -99,8 +99,8 @@ body{
 	width: 560px;
 	height: 350px;
 	margin: 0 auto;
-	margin-left: 15px;   margin-right: 15px;  margin-bottom: 15px; color:
-
+	margin-left: 15px;   margin-right: 15px;  margin-bottom: 15px;
+}
 /*--------------------------------------------------------------------------------------*/
 
 #main_bottom > #pohang_cruise > #cruise_header{
@@ -114,6 +114,7 @@ body{
 #main_bottom > #pohang_cruise > #cruise_header:hover{
 	background: black;   color: white;
 }
+
 #main_bottom > #pohang_cruise > #cruise_header > h1{
 	font-size: 45px;
 }
