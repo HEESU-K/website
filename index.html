@@ -2,229 +2,63 @@
 <html lang="ko">
 <head>
 	<meta charset="UTF-8">
-	<title>KHS_Website</title>
-	<style>
-		a {text-decoration: none;}
-		li{list-style: none;}
-
-
-		body{background:#FEBC23}
-		#main{
-			overflow: hidden;
-		}
-		#main_left{
-			width:65%;
-			height: 950px;
-			background: #282825;
-			margin: 0 0;
-			float: left;
-			color: white;
-		}
-
-		#main > #main_left > #logo{
-			padding-left: 20px;
-			padding-top: 10px;
-			width: 65%;
-		}
-		#main > #main_left > #logo > a > img{
-			margin-left:-13px;
-			margin-top: 7px;
-			width: 60px;
-			height: 60px;
-		}
-
-		#main > #main_left > #title{
-			padding-top: -200px; 
-		}
-
-
-		#main > #main_left > #title > h1{	
-			width: 65%;
-			display: block;
-			margin-top: 230px;
-			padding-left: 170px;
-			font-size: 60px;
-			text-shadow: 5px 5px 5px black;
-		}
-		#main > #main_left > #title > p{
-			width: 65%;
-			display: block;
-			padding-left: 170px;
-		}
-
-		#learn_more_div{
-			margin-top: 40px;
-		}
-
-		#learn_more{
-			color: #FEBC23;
-			width: 65%;
-			margin-left: 170px;
-			padding: 10px 35px;
-			text-align: center;
-			border-radius: 40px;
-			border: 2px solid #FEBC23;
-			text-shadow: 5px 5px 5px black;
-		}
-		#learn_more:hover{
-			background: #E1A225;
-			color: white;
-		}
-
-		#main_right{
-			width: 35%;
-			height: 950px;
-			background: black;
-			margin: 0 0;
-			float: right;
-		}
-		/*---------------------------------------------------------*/
-		.kategori_1{color: white;} .kategori_2{color: white;} .kategori_3{color: white;}
-
-
-		/*---------------------------------------------------------*/
-
-
-		#kategorie_1{
-			overflow: hidden;
-			width: 470px;
-			margin: 0 auto;
-			height: 150px;
-			margin-top: 180px;
-
-		}
-		.kategori_1{
-			float: left;
-			display: block;
-			width: 120px;
-			height: 140px;
-			border: 2px solid white;
-			text-align: center;
-			line-height: 140px;
-			margin: 5px;
-			margin-top: -12px;
-		}
-
-		.kategori_1:hover{
-			border: 3px solid #FEBC23;	
-		}
-
-		/*---------------------------------------------------------*/
-
-		#kategorie_2{
-			overflow: hidden;
-			width: 470px;
-			margin: 0 auto;
-			height: 150px;
-
-		}
-		.kategori_2{
-			float: left;
-			display: block;
-			width: 120px;
-			height: 140px;
-			border: 2px solid white;
-			text-align: center;
-			line-height: 140px;
-			margin: 5px;
-			margin-top: -12px;
-		}
-
-		.kategori_2:hover{
-			border: 3px solid #FEBC23;	
-		}
-
-		/*---------------------------------------------------------*/
-
-		#kategorie_3{
-			overflow: hidden;
-			width: 470px;
-			margin: 0 auto;
-			height: 150px;
-		}
-
-		.kategori_3{
-			float: left;
-			display: block;
-			width: 120px;
-			height: 140px;
-			border: 2px solid white;
-			text-align: center;
-			line-height: 140px;
-			margin: 5px;
-			margin-top: -12px;
-		}
-
-		.kategori_3:hover{
-			border: 3px solid #FEBC23;	
-		}
-
-		/*---------------------------------------------------------*/
-
-		#main_bottom > #main_copyright{
-			color: white;
-			height: 40px;
-			line-height: 10px;
-			width: 310px;  margin: 0 auto;
-			text-align: center;
-			margin-top: 260px;
-		}
-		#main_bottom > #main_copyright:hover{
-			color: lightgray;
-		}
-	</style>
-	<link rel="stylesheet" href="index.css" media="screen"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="https://kit.fontawesome.com/33ad4c44da.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<div id="main">
-		<div id="main_left">
-			<span id="logo">
-				<a href="index.html"><img src="img/black_logo.png"></a>
-			</span>
-			
-			<div id="title">
-				<h1>KHS's PHOTO WEBSITE !</h1>
-				<p>This website was created for the Yeungnam University of Science and Technology JavaScript assignment. This is the main page of the KHS website. You can go to the detail page by pressing the 9 buttons on the right. No responsive web code has been applied. When viewing this website, please connect with the maximum window size. Click the 'LEARN MORE' button below to check additional information on the website.</p>
-				<div id="learn_more_div">
-					<a href="#" id="learn_more">LEARN MORE ></a>
+	<div class="container">
+		<div class="main_left">
+			<div class="logo">
+				<a href="index.html"><img src="black_logo.png"></a>
+			</div>
+			<div class="wrap">
+				<div class="title">
+					<h1>KHS's PHOTO WEBSITE !</h1>
+					<br>
+					<p>Welcome to KHS's server. This website was created for the Yeungnam University of Science and Technology JavaScript assignment. This is the main page of the KHS website. You can go to the detail page by pressing the 9 buttons on the right. No responsive web code has been applied. When viewing this website, please connect withmargin: auto; the maximum window size. Click the 'LEARN MORE' button below to check additional information on the website.</p>
+				</div>
+				<div class="learn">
+					<a href="#" class="learn_more">LEARN MORE></a>
 				</div>
 			</div>
 		</div>
-<!----------------------------------------------------------------------------->
-		<div id="main_right">
-			<div id="kategorie_1">
-				<ul>
-					<a href="#" class="kategori_1"><li>YNC</li></a>
-					<a href="#" class="kategori_1"><li>YNU</li></a>
-					<a href="#" class="kategori_1"><li>YNMC</li></a>
-				</ul>
-			</div>
-			
-<!----------------------------------------------------------------------------->
-			<div id="kategorie_2">
-				<ul>
-					<a href="#" class="kategori_2"><li>Pohang Trip</li></a>
-					<a href="#" class="kategori_2"><li>Coco</li></a>
-					<a href="#" class="kategori_2"><li>Hobum</li></a>
-				</ul>
-			</div>
-		
-<!----------------------------------------------------------------------------->
-			<div id="kategorie_3">
-				<ul>
-					<a href="#" class="kategori_3"><li>Free Board</li></a>
-					<a href="#" class="kategori_3"><li>Trip Board</li></a>
-					<a href="#" class="kategori_3"><li>Suggestion</li></a>
-				</ul>
-			</div>
-
-			
-			<div id="main_bottom">
-				<div id="main_copyright">
-					<p>COPYRIGHTⓒ2020 KIMHEESU</p>
+		<input type="checkbox" id="menuicon">
+		<label for="menuicon">
+			<span></span>
+			<span></span>
+			<span></span>
+		</label>
+		<div class="main_right">
+			<div class="card_wrap">
+				<div class="kategorie">
+					<ul>
+						<li class="kategori"><a href="#">YNC</a></li>
+						<li class="kategori"><a href="#">YNU</a></li>
+						<li class="kategori"><a href="#">YNMC</a></li>
+					</ul>
 				</div>
+				<div class="kategorie">
+					<ul>
+						<li class="kategori"><a href="#">Pohang Trip</a></li>
+						<li class="kategori"><a href="#">Coco</a></li>
+						<li class="kategori"><a href="#">Hobum</a></li>
+					</ul>
+				</div>
+				<div class="kategorie">
+					<ul>
+						<li class="kategori"><a href="#">Free board</a></li>
+						<li class="kategori"><a href="#">Trip board</a></li>
+						<li class="kategori"><a href="#">Suggestion</a></li>
+					</ul>
+				</div>
+			</div>	
+			<div class="footer">
+				<p>COPYRIGHTⓒ2020 KIMHEESU</p>
 			</div>
 		</div>
 	</div>
 </body>
-</html>
+</html> 
